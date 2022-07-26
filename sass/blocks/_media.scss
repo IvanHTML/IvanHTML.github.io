@@ -9,6 +9,11 @@
         grid-template-columns: 400px 520px;
         column-gap: 40px;
     }
+    .resume__wrapper {
+        column-gap: 80px;
+        grid-template-columns: repeat(2, 375px);
+        padding: 30px 30px 0 30px;
+    }
 }
 
 @media (max-width: 992px) { // check from 769px
@@ -17,6 +22,11 @@
     }
     .personal__wrapper {
         grid-template-columns: 300px 380px;
+    }
+    .resume__wrapper {
+        grid-template-columns: 400px;
+        row-gap: 50px;
+        justify-content: center;
     }
 }
 
@@ -45,7 +55,18 @@
         width: 320px;
     }
     .personal {
-        &__title {
+        &__subtitle {
+            font-size: 24px;
+        }
+    }
+    .resume__wrapper {
+        grid-template-columns: 1fr;
+    }
+    .resume {
+        &__subtitle {
+            font-size: 24px;
+        }
+        &__column-title {
             font-size: 24px;
         }
     }
