@@ -4,14 +4,14 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 340px;
+    height: 370px;
     z-index: 3;
-    top: 230px;
+    top: 300px;
     left: 50px;
     &__divider {
         height: 70px;
         width: 2px;
-        background-color: #000;
+        background-color: #fff;
     }
     &__text {
         writing-mode: vertical-lr;
@@ -21,6 +21,9 @@
         img {
             width: 30px;
             height: 30px;
+            background-color: #fff;
+            border-radius: 100%;
+            border: none;
         }
     }
 }
