@@ -51,8 +51,8 @@
                 <h1 class="title_fz48 promo__title">Я frontend-разработчик <br> 
                     из города Москва</h1>
                 <div class="promo__btns">
-                    <a href="#" class="promo__link btn">Портфолио</a>
-                    <a href="#" class="promo__link">Про меня</a>
+                    <a href="#portfolio" class="promo__link btn">Портфолио</a>
+                    <a href="#personal" class="promo__link">Про меня</a>
                 </div>
         </div>
     </section>
@@ -76,7 +76,7 @@
     <section id="resume" class="resume">
         <div class="container">
             <h2 class="title title_fz16 resume__title">Опыт</h2>
-            <div class="title resume__subtitle">Чем я буду полезен</div>
+            <div class="title title_fz36 resume__subtitle">Чем я буду полезен</div>
             <div class="divider"></div>
             <div class="resume__wrapper">
                 <div class="resume__column">
@@ -146,7 +146,124 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
+    
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="title title_fz16 skills__title">Навыки</div>
+            <div class="title title_fz36 skills__subtitle">Что я использую в работе</div>
+            <div class="divider"></div>
+            <div class="skills__wrapper">
+                <div class="skills__item">
+                    <img src="icons/skills/html5.svg" alt="html5">
+                    <div class="skills__item-title">HTML5</div>
+                    <div class="skills__item-descr">Именно он создает каркас сайта или приложения, а пятая версия позволит создавать более SEO-оптимизированную структуру продукта</div>
+                </div>
+                <div class="skills__item">
+                    <img src="icons/skills/css3.svg" alt="css3">
+                    <div class="skills__item-title">CSS3</div>
+                    <div class="skills__item-descr">Этот язык стилей позволяет создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только фантазией!</div>
+                </div>
+                <div class="skills__item">
+                    <img src="icons/skills/js.svg" alt="javascript">
+                    <div class="skills__item-title">JavaScript</div>
+                    <div class="skills__item-descr">Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</div>
+                </div>
+                <div class="skills__item">
+                    <img src="icons/skills/jquery.svg" alt="jquery">
+                    <div class="skills__item-title">Jquery</div>
+                    <div class="skills__item-descr">Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект не следует, но навык работы с ней присутствует</div>
+                </div>
+                <div class="skills__item">
+                    <img src="icons/skills/react.svg" alt="react">
+                    <div class="skills__item-title">React</div>
+                    <div class="skills__item-descr">Эта библиотека позволяет создавать web-приложения</div>
+                </div>
+                <div class="skills__item">
+                    <img src="icons/skills/bootstrap_logo.jpeg" alt="bootstrap">
+                    <div class="skills__item-title">Bootstrap</div>
+                    <div class="skills__item-descr">Cвободный набор инструментов для создания сайтов и веб-приложений. </div>
+                </div>
+                <div class="skills__item">
+                    <img src="icons/skills/gulp_logo.jpeg" alt="gulp">
+                    <div class="skills__item-title">Gulp</div>
+                    <div class="skills__item-descr">Таск-менеджер для автоматического выполнения часто используемых задач</div>
+                </div>
+                <div class="skills__item">
+                    <img src="icons/skills/webpack_logo.jpg" alt="webpack">
+                    <div class="skills__item-title">Webpack</div>
+                    <div class="skills__item-descr">Сборщик модулей HTML, CSS, JavaScript с открытым исходным кодом</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="title title_fz16 portfolio__title">Портфолио</h2>
+            <div class="title portfolio__subtitle">Мои работы</div>
+            <div class="divider"></div>
+            <div class="portfolio__wrapper">
+                <a href="https://ivanhtml.github.io/uber/" class="portfolio__item">
+                    <img src="img/works/uber.jpg" alt="uber">
+                </a>
+                <a href="https://ivanhtml.github.io/pulse/" class="portfolio__item">
+                    <img src="img/works/pulse.jpg" alt="pulse">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="contacts__photo">
+                    <img src="img/main_photo.jpg" alt="main-photo">
+                </div>
+                <div class="contacts__descr">
+                    <div class="contacts__subtitle title_fz16 title">Контакты</div>
+                    <div class="contacts__title title">Свяжитесь со мной</div>
+                    <div class="divider"></div>
+                    <div class="title title_fz14 contacts__text">Любым удобным для вас способом:</div>
+                    <div class="contacts__social">
+                        <!-- <a href="#" class="contacts__link">
+                            <img src="icons/social/Facebook_straight.svg" alt="facebook">
+                        </a> -->
+                        <a href="https://t.me/Truetfk" class="contacts__link">
+                            <img src="icons/social/telegram.svg" alt="telegram">
+                        </a>
+                        <a href="https://www.instagram.com/true_tfk/" class="contacts__link">
+                            <img src="icons/social/instagram.svg" alt="instagram">
+                        </a>
+                    </div>
+                    <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сам вам напишу:
+
+                    </div>
+                    <form action="#" class="contacts__form">
+                        <div class="contacts__input">
+                            <input required name="name" id="name" type="text">
+                            <label for="name">Ваше имя</label>
+                        </div>
+                        <div class="contacts__input">
+                            <input required name="email" id="email" type="email">
+                            <label for="email">Ваша почта</label>
+                        </div>
+                        <div class="contacts__textarea">
+                            <textarea name="text" id="text"></textarea>
+                            <label for="text">Ваше сообщение</label>
+                        </div>
+                        <div class="contacts__triggers">
+                            <button class="contacts__btn btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>Я согласен(а) с <a href="policy.html">политикой конфиденциальности</a></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="js/script.js"></script>
 </body>
